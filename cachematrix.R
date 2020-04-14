@@ -19,7 +19,7 @@ qualifiedMatrix <- function(A) {
 }
 
 
-## makeCacheMatrix() creates a matrix capable of caching length()
+## makeCacheMatrix() creates a matrix capable of caching 
 ## its inverse in order to avoid an expensive recalculation
 ## every time the inverse is needed
 makeCacheMatrix <- function(M = matrix()) {
